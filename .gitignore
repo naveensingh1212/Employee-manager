@@ -1,0 +1,28 @@
+# In Employee-manager/ root
+cat > .gitignore << EOL
+# Dependencies
+node_modules/
+package-lock.json
+
+# Database
+Backend/database/*.db
+Backend/database/*.db-journal
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+EOL
